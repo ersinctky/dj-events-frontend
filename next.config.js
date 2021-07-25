@@ -6,7 +6,7 @@ module.exports = {
     return [
       {
         // matching all API routes
-        source: "*",
+        source: "https://djeventsbackendersin.herokuapp.com",
         headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
           { key: "Access-Control-Allow-Origin", value: "*" },
